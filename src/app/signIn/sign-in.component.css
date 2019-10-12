@@ -1,0 +1,78 @@
+.auth-heading{
+
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: bold ;
+}
+
+.form-control{
+
+    font-weight: bold;
+    font-size: 120%;
+    width: 80%;
+    height: 50px;
+}
+
+.form-group{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.auth-container {
+
+    margin: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+	background-color: rgba(145, 155, 255, 0.9);
+	width: 60%;
+    border-radius: 5px;
+}
+
+.auth-prompt {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.auth-signup{
+
+    color: #1239FC;
+}
+
+.btn-default{
+
+    padding-left: 5%;
+    padding-right: 5%; 
+    font-size: 200%;
+    text-overflow: ellipsis;
+}
+
+.alert-danger{
+    
+    width: 60%;
+    padding: 20px;
+    /*color: #110D0D;
+    background*/-color: #EC1A1A;
+    border-radius: 0px;
+    margin-top: 10vh;
+}
+
+input.ng-touched.ng-invalid {
+
+    border:solid #FF0000 1px;
+}
+
+input.ng-touched.ng-valid {
+
+    border:solid #35F321 1px;
+}

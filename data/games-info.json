@@ -1,0 +1,47 @@
+{
+    "games": [	
+    {
+	    "title": "Dota 2", 
+	    "theme": "MOBA",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 250
+   	},
+   	{
+		"title": "Dota Underlords", 
+	    "theme": "Strategy",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 100
+   	},
+   	{
+   		"title": "World of tanks", 
+	    "theme": "Massively Multiplayer Online Game",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 170,
+	    "expirationDate": "12-12-1999"
+   	},
+   	{
+   		"title": "Mario", 
+	    "theme": "Action",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 780
+   	},
+   	{
+   		"title": "Assassin's creed", 
+	    "theme": "Action",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 50
+   	},
+   	{
+   		"title": "Prince of persia", 
+	    "theme": "Action",
+	    "aboutCampaign": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	    "video": "string",
+	    "price": 17
+   	}]
+    
+}

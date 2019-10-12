@@ -1,0 +1,21 @@
+<div class = "best-camp">Games</div>
+<div class="row">
+    
+    <div *ngFor="let item of games" class="column">
+        <div class="card">
+          <img src="http://www.radionetplus.ru/uploads/posts/2013-12/1387999683_zimnyaya-skazka-16.jpg" alt="cat">
+          <div class="card-content">
+            <a class = "theme" href="#">
+            <i class="fa fa-comments-o"></i>
+            <span>{{item.theme}}</span>
+            </a>
+            <h2>{{item.title}}</h2>
+            <p>{{item.aboutCampaign}}</p>
+            <div class = "gather">
+              <p >{{item.price}}$</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+</div>

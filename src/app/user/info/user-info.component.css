@@ -1,0 +1,140 @@
+.card {
+
+	border-radius: 10px;
+	background-color: #FFF9F9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 250px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.alert-danger{
+	
+	margin: 0 auto;
+	width: 70%;
+	padding: 20px;
+	/*color: #110D0D;
+	background*/-color: #EC1A1A;
+	border-radius: 0px;
+	margin-top: 10vh;
+}
+
+p.danger{
+
+	text-align: center;
+	width: 100%;
+	font-size: 50px;
+}
+
+.myContainer {
+	/*float: left;*/
+    padding: 2px 16px;
+}
+
+.img{
+	display: inline-block;
+	margin: 10px;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+table{
+	/*float: left;*/
+	width: calc(100% - 220px);
+}
+
+.name{
+	/*float: left;*/
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.card.card-replenishment{
+	min-height: 100px;
+}
+
+.first{
+	font-size: 20px;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.second{
+	font-size: 20px;
+	width: 400px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.settings{
+	
+	font-size: 20px;
+	margin: 10px;
+	float: right;
+	text-align: right;
+	display: inline-block;
+}
+
+p{
+	width: 200px;
+}
+
+
+.about{
+	width: 100%;
+}
+
+.settings-header{
+	
+	text-align: center;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.btn.btn-default{
+
+	background-color: #38B9BE;
+	width: 100%;
+	height: 100%;
+
+
+    font-size: calc(3px + 1vw);
+
+}
+
+.batton-def{
+
+	display: inline-block;
+	width: 15%;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.inputText{
+
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.div-inputText{
+
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	width: 80%;
+	height: 50px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+<div align="center">
+	<div *ngIf="isError" class="alert alert-danger">
+        <p class = "danger">{{error}}</p>
+	</div>
+	<div class="auth-container" align="center"> 
+		<form #myForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+			<div>
+	            <h1 class="auth-heading">Log in</h1>
+	            <h2>____________________</h2>
+	        </div>
+		    <div class="form-group">
+		        <input class="form-control" type="text" placeholder = "E-mail" name="email" [(ngModel)]="user.email" required />
+		    </div>
+		    <div class="form-group">
+		        <input class="form-control"  type="password" placeholder = "Password" name="password" [(ngModel)]="user.password" 
+		            required/>
+		    </div>
+		    <div>
+	            <p class="auth-prompt">Haven't you got an account yet? Sign up!</p>
+	        </div>
+		    <div class="form-group">
+		        <button  [disabled]="myForm.invalid" class="btn btn-default">Log in</button>
+		    </div>
+		</form>    
+	</div>
+</div>

@@ -1,0 +1,42 @@
+<div *ngIf="cookieService.check('USER')" class="card">
+  <img class = "img" src="https://i.imgur.com/aks5Wz9.jpg" alt="Avatar">
+  <div class="myContainer">
+  	<div class = "name">{{user.name}}</div>
+  	<div class = "settings"><a routerLink="/profile/settings">settings</a></div>
+    <table>
+    		<tr>
+    			<td class = "first balance" >Balance:</td>
+    			<td class = "second" >{{user.balance}}$</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.dateOfBirth !== null && user.dateOfBirth !== ''" class = "first" >Date of birth:</td>
+    			<td *ngIf="user.dateOfBirth !== null && user.dateOfBirth !== ''" class = "second" >{{user.dateOfBirth}}</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.country !== null && user.country !== ''" class = "first">Country:</td>
+    			<td *ngIf="user.country !== null && user.country !== ''" class = "second">{{user.country}}</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.city !== null && user.city !== ''" class = "first">City:</td>
+    			<td *ngIf="user.city !== null && user.city !== ''" class = "second">{{user.city}}</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.phone !== null && user.phone !== ''" class = "first">Phone:</td>
+    			<td *ngIf="user.phone !== null && user.phone !== ''" class = "second">{{user.phone}}</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.sex !== null && user.sex !== ''" class = "first">Sex:</td>
+    			<td *ngIf="user.sex !== null && user.sex !== ''" class = "second">{{user.sex}}</td>
+    		</tr>
+    		<tr>
+    			<td *ngIf="user.about !== null && user.about !== ''" class = "first">About:</td>
+    			<td *ngIf="user.about !== null && user.about !== ''" class = "second"><p class = "about">{{user.about}}</p>
+    			</td>
+    		</tr>
+    </table>
+  </div>
+</div>
+
+<div *ngIf="!cookieService.check('USER')" class="alert alert-danger">
+        <p class = "danger">Session timed out. Please log in again ;)</p>
+</div>

@@ -1,0 +1,23 @@
+<div class = "mein-conteiner">
+    <ul class="topnav">
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <a routerLink="">Home</a>
+        </li>
+        <li routerLinkActive="active">
+            <a routerLink="/info">Games</a>
+        </li>
+        <li *ngIf="!signin" class="right" routerLinkActive="active">
+            <a  routerLink="/login">Sign in</a>
+        </li>
+        <li *ngIf="signin" class="right" routerLinkActive="active">
+            <a  routerLink="/logout">Log out</a>
+        </li>
+        <li *ngIf="signin" class="right" routerLinkActive="active">
+            <a  routerLink="/profile">{{name}}</a>
+        </li>
+        <li *ngIf="signin" routerLinkActive="active">
+            <a  routerLink="/users">Users</a>
+        </li>
+    </ul>
+    <router-outlet></router-outlet>
+</div>

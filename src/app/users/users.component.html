@@ -1,0 +1,29 @@
+<div class = "tableContainer"> 
+    <div class = "container-li">
+        <li class = ""><button type="button" class = "">View</button></li> 
+        <li class = ""><button type="button" class = "">Remove</button></li>
+        <li class = ""><button type="button" class = "">Block</button></li>
+        <li class = ""><button type="button" class = "">Appoint admin</button></li>
+    </div>
+    <div class = "">
+        <table class = "table">
+            <thead>
+                <tr>
+                    <th *ngFor="let item of usersSettings" scope="col">{{item}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of users">       
+                    <th  scope="row">{{item.id}}</th>
+                    <td><input type="checkbox" name ={{item.id}}></td>
+                    <td>{{item.e_mail}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.phone}}</td>
+                    <td>{{item.sex}}</td>
+                    <td>{{item.role}}</td>
+                    <td>{{item.access}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
