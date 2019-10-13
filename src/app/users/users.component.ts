@@ -1,17 +1,8 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpService} from './users.http.service';
 import { CookieService } from 'ngx-cookie-service';  
+import { User } from './user';
 
-export class User{
-    name: string;
-    balance: number;
-    dateOfBirth: any;
-    country: string;
-    city: string;
-    phone:string;
-    sex: string;
-    about: string;
-}
 
 @Component({
     selector: 'users-app',
@@ -23,23 +14,17 @@ export class Users implements OnInit {
    
 
     users: User[] = [];
-    usersSettings: string[] = ["Id","Check","E-mail","Name","Phone","Sex","Role","Access"];
-    error: any[] = [];
-    date: string = null;
-    dateTime: any[] = [];
+    usersSettings: string[] = ["Id","E-mail","Name","Phone","Sex","Access"];
     i: number = 0;
 
-    constructor(private httpService: HttpService, private cookieService: CookieService){
-
-
-    }
+    constructor(private httpService: HttpService, private cookieService: CookieService){ }
       
     ngOnInit(){
         this.httpService.getData().subscribe((data:any) => {
-                //this.user=data
-                while(this.i < data.rows.length)
+               
+                while(this.i < data.users.length)
                 {
-                    this.users[this.i] = data.rows[this.i];
+                    this.users[this.i] = data.users[this.i];
                     this.i = this.i + 1;
                 }
                 console.log(this.users);

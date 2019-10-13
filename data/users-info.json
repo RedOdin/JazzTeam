@@ -1,0 +1,125 @@
+{
+    "users": [	
+    {
+	    "id": "1", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "2", 
+	    "email": "anny_post@gmail.ru",
+	    "name": "Anna",
+	    "phone": "+375441111111",
+	    "sex": "female",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "3", 
+	    "email": "sasha_post@mail.ru",
+	    "name": "Sasha",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "4", 
+	    "email": "maria@mail.ru",
+	    "name": "Maria",
+	    "phone": "+375441111111",
+	    "sex": "female",
+	    "access": "not allowed"
+   	},
+   	{
+	    "id": "5", 
+	    "email": "petr@mail.ru",
+	    "name": "Petr",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "6", 
+	    "email": "github@mail.ru",
+	    "name": "Petr",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "not allowed"
+   	},
+   	{
+	    "id": "7", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "8", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "9", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "not allowed"
+   	},
+   	{
+	    "id": "10", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "11", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "not allowed"
+   	},
+   	{
+	    "id": "12", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "13", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "14", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	},
+   	{
+	    "id": "15", 
+	    "email": "anton_post@mail.ru",
+	    "name": "Anton",
+	    "phone": "+375441111111",
+	    "sex": "male",
+	    "access": "allowed"
+   	}
+   ]
+    
+}

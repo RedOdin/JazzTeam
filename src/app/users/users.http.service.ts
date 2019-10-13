@@ -9,6 +9,6 @@ export class HttpService{
     constructor(private http: HttpClient){ }
       
     getData(){
-        return this.http.get(''); 
+        return this.http.get('data/users-info.json'); 
     }
 }

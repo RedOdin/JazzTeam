@@ -1,39 +1,51 @@
-.container-li {
-
-  width: 100%;
-  margin-top: 20px;
-  background-color: #162416;
-  height: 45px;
-}
-
-/*.Delete {
-  margin-right: 20%;
-}*/
-
-li {
-
-  font-size: #FFFFFF;
-  height: 100%;
-
-  display: inline-block;
-  width: 25%;
-  opacity:1;
-}
-
-button {
-
-  font-size: 20px;
-  /*background: #393C3C;*/
-  width: 100%;
-  height: 100%;
-}
-
-
 .tableContainer {
+
+  max-height: 400px;
   padding: 20px;
+  padding-bottom: 40px;
   border-radius: 10px;
   background-color: #FFF9F9;
   margin: 0 auto;
   width: 70%;
   margin-top: 20px;
 }
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3px solid grey;
+  width: 100%; 
+  /*display: block;*/
+}
+
+
+tbody, thead {
+  width: 100%;
+  display: block;
+}
+
+tbody {
+  height: 200px;    
+  overflow-y: auto;  
+  /*overflow-x: auto;*/
+}
+
+tr.str:hover{
+  background-color: #4CAF50;
+}
+
+th, td {
+  width: calc(100% / 7);
+  padding: 10px 15px;
+  border: 1px solid grey;
+}
+
+
+th{
+  border: 1px solid grey;
+}
+
+td{
+   border: 1px solid grey;
+}
+
