@@ -1,9 +1,9 @@
 .row {
   margin: 0 auto;
-  display: flex; /* включение технологии flexbox */
-  flex-direction: row; /* колонки в ряду */
-  justify-content: center; /* колонки в центре контейнера */
-  flex-wrap: wrap; /* держать колонки в ряду */
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap; 
   margin-top: 20px;
   width: 80%;
 }
@@ -20,9 +20,9 @@
 }
 
 .column {
-  display: flex;   /*одинаковая высота колонок*/    
-  width: 33.33%; /* ширина одной колонки */
-  /*padding: 5px;*/
+  display: flex;       
+  width: 33.33%; 
+ 
 }
 
 .card {
@@ -89,15 +89,6 @@ a {
     
 }
 
-/*.button {
-  display: block;
-  background: #a7c1cf;
-  padding: 10px 15px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  text-align: center;
- }*/
  
  .button:hover, .button:focus {
     /*background: #068020;*/
@@ -105,8 +96,8 @@ a {
 
 @media screen and (max-width: 640px) {
   .row {
-    flex-direction: column; /* в ряду останется одна колонка */ 
-    flex-wrap: wrap; /* разрешен перенос колонок */
+    flex-direction: column;  
+    flex-wrap: wrap; 
   }
   .column {
     width: 100%;

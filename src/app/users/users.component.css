@@ -1,6 +1,5 @@
 .tableContainer {
 
-  max-height: 400px;
   padding: 20px;
   padding-bottom: 40px;
   border-radius: 10px;
@@ -25,7 +24,7 @@ tbody, thead {
 }
 
 tbody {
-  height: 200px;    
+  height: 400px;    
   overflow-y: auto;  
   /*overflow-x: auto;*/
 }
@@ -42,10 +41,10 @@ th, td {
 
 
 th{
+  width: 20%;
   border: 1px solid grey;
 }
 
 td{
    border: 1px solid grey;
 }
-
